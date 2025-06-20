@@ -13,6 +13,8 @@ import models.DTO.AccountDTO;
  */
 public class AccountDAO extends AccountDTO implements Accessible<AccountDTO>{
 
+    
+    
     @Override
     public int insertRec(AccountDTO object) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
@@ -38,5 +40,7 @@ public class AccountDAO extends AccountDTO implements Accessible<AccountDTO>{
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-   
+   //feature login
+    
+     
 }
